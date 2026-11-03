@@ -1,11 +1,11 @@
-# 🌟 Professional Portfolio Website
+# 🌟 My Prof
 
-A modern, responsive portfolio website showcasing full-stack development skills with mobile-first design and interactive features.
+A modern, responsive professional website showcasing full-stack development skills with mobile-first design and interactive features.
 
-![Portfolio Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![Mobile Responsive](https://img.shields.io/badge/Mobile-Responsive-blue) ![PDF Integration](https://img.shields.io/badge/PDF-Integrated-orange)
+![My Prof Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![Mobile Responsive](https://img.shields.io/badge/Mobile-Responsive-blue) ![PDF Integration](https://img.shields.io/badge/PDF-Integrated-orange)
 
 ## 🚀 **Live Demo**
-- **Portfolio:** [https://osa277.github.io/portfolio/](https://osa277.github.io/portfolio/)
+- **My Prof:** [https://osa277.github.io/portfolio/](https://osa277.github.io/portfolio/)
 - **Resume:** [Interactive Resume Page](https://osa277.github.io/portfolio/pages/resume.html)
 
 ## ✨ **Key Features**
@@ -26,7 +26,7 @@ A modern, responsive portfolio website showcasing full-stack development skills 
 
 ### 💼 **Interactive Resume**
 - **PDF Integration** - Embedded CV viewer with download functionality
-- **Project Showcase** - Live links to portfolio projects
+- **Project Showcase** - Live links to My Prof projects
 - **Skills Display** - Categorized technical abilities
 - **Contact Integration** - One-click communication options
 - **Professional Timeline** - Career progression display
@@ -41,8 +41,8 @@ A modern, responsive portfolio website showcasing full-stack development skills 
 ## 🏗️ **Project Structure**
 
 ```
-portfolio/
-├── 📄 index.html              # Main portfolio page
+my-prof/
+├── 📄 index.html              # My Prof homepage
 ├── 🔗 link.html               # Navigation hub
 ├── 🎨 styles.css              # Main stylesheet
 ├── ⚡ script.js               # Interactive functionality
@@ -86,10 +86,10 @@ portfolio/
 
 ## 🎯 **Page Features**
 
-### **🏠 Main Portfolio (index.html)**
+### **🏠 My Prof Homepage (index.html)**
 - Hero section with animated background
 - Services showcase with hover effects
-- Project portfolio with filtering
+- Project showcase with filtering
 - Contact form with validation
 - Mobile bottom navigation
 
@@ -116,8 +116,8 @@ portfolio/
 
 ### **1. Clone Repository**
 ```bash
-git clone https://github.com/Osa277/portfolio.git
-cd portfolio
+git clone https://github.com/Osa277/Portfolio.git my-prof
+cd my-prof
 ```
 
 ### **2. Local Development**
@@ -196,13 +196,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 **Author**
 
 **Asiyanbi Olalekan Samuel**
-- Portfolio: [https://osa277.github.io/portfolio/](https://osa277.github.io/portfolio/)
+- My Prof: [https://osa277.github.io/portfolio/](https://osa277.github.io/portfolio/)
 - GitHub: [@Osa277](https://github.com/Osa277)
 - Email: samuel.olalekan@email.com
 
 ## 🎯 **Project Goals**
 
-This portfolio demonstrates:
+My Prof demonstrates:
 - **Modern Web Development** practices
 - **Mobile-First Design** principles
 - **Progressive Enhancement** techniques
@@ -225,6 +225,6 @@ This portfolio demonstrates:
 
 ⭐ **Star this repository if you found it helpful!**
 
-🐛 **Found a bug?** [Open an issue](https://github.com/Osa277/portfolio/issues)
+🐛 **Found a bug?** [Open an issue](https://github.com/Osa277/Portfolio/issues)
 
-💡 **Have a suggestion?** [Start a discussion](https://github.com/Osa277/portfolio/discussions)
+💡 **Have a suggestion?** [Start a discussion](https://github.com/Osa277/Portfolio/discussions)

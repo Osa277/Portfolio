@@ -14,12 +14,9 @@ function initializeResumePage() {
 
 // PDF Controls
 function initializePDFControls() {
-    const viewPDFBtn = document.querySelector('.view-btn');
     const pdfEmbedSection = document.querySelector('.pdf-embed-section');
     const pdfViewer = document.querySelector('#pdf-viewer');
-    const pdfIframe = document.querySelector('#pdf-iframe');
     const fullscreenBtn = document.querySelector('.fullscreen-btn');
-    const downloadBtn = document.querySelector('.download-btn');
     const hideBtn = document.querySelector('.hide-btn');
 
     // Make togglePdfView function global
@@ -37,42 +34,6 @@ function initializePDFControls() {
             }
         }
     };
-
-    // Show PDF viewer
-    if (viewPDFBtn && pdfEmbedSection) {
-        viewPDFBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            // Show the PDF section
-            pdfEmbedSection.style.display = 'block';
-            
-            // Smooth scroll to PDF section
-            pdfEmbedSection.scrollIntoView({ 
-                behavior: 'smooth',
-                block: 'start'
-            });
-
-            // Load PDF if not already loaded
-            if (pdfIframe && !pdfIframe.src) {
-                pdfIframe.src = '../assets/MY%20PROF.pdf';
-            }
-
-            // Add loading animation
-            pdfViewer.innerHTML = `
-                <div class="pdf-loading">
-                    <div class="loading-spinner"></div>
-                    <p>Loading CV...</p>
-                </div>
-            `;
-
-            // Simulate loading and then show iframe
-            setTimeout(() => {
-                pdfViewer.innerHTML = `
-                    <iframe id="pdf-iframe" src="../assets/MY%20PROF.pdf" width="100%" height="800"></iframe>
-                `;
-            }, 1500);
-        });
-    }
 
     // Hide PDF viewer
     if (hideBtn && pdfEmbedSection) {
@@ -103,21 +64,6 @@ function initializePDFControls() {
         });
     }
 
-    // Download functionality
-    if (downloadBtn) {
-        downloadBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            // Create download link
-            const link = document.createElement('a');
-            link.href = '../assets/MY%20PROF.pdf';
-            link.download = 'MY PROF.pdf';
-            link.click();
-            
-            // Show download notification
-            showNotification('CV download started!', 'success');
-        });
-    }
 }
 
 // Smooth Scrolling
