@@ -2,10 +2,10 @@
 
 ### How to Add Your CV PDF:
 
-1. **Place your CV PDF file** in the `assets/` folder with the name `cv.pdf`
+1. **Place your CV PDF file** in the `assets/` folder with the name `MY PROF.pdf`
    - Navigate to: `c:\Users\user\Desktop\CV\assets\`
    - Copy your CV PDF file there
-   - Rename it to: `cv.pdf`
+   - Rename it to: `MY PROF.pdf`
 
 2. **Your resume page is ready!** 
    - Visit: `pages/resume.html` to see your interactive resume
@@ -41,7 +41,7 @@
 ✅ Your `link.html` already includes the resume link in the "Professional" section
 
 ### Ready to Use:
-1. Copy your CV PDF to `assets/cv.pdf`
+1. Copy your CV PDF to `assets/MY PROF.pdf`
 2. Open `pages/resume.html` in your browser
 3. Click "View CV" to see the PDF integration in action!
 

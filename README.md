@@ -47,7 +47,7 @@ portfolio/
 ├── 🎨 styles.css              # Main stylesheet
 ├── ⚡ script.js               # Interactive functionality
 ├── 📁 assets/                 # Documents and resources
-│   ├── 📄 Asiyanbi-full-stack-cv.pdf
+│   ├── 📄 MY PROF.pdf
 │   └── 📚 README_CV_Setup.md
 ├── 📁 pages/                  # Individual pages
 │   ├── 📄 resume.html         # Interactive resume

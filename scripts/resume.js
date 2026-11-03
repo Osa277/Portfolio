@@ -54,7 +54,7 @@ function initializePDFControls() {
 
             // Load PDF if not already loaded
             if (pdfIframe && !pdfIframe.src) {
-                pdfIframe.src = '../assets/Asiyanbi-full-stack-cv.pdf';
+                pdfIframe.src = '../assets/MY%20PROF.pdf';
             }
 
             // Add loading animation
@@ -68,7 +68,7 @@ function initializePDFControls() {
             // Simulate loading and then show iframe
             setTimeout(() => {
                 pdfViewer.innerHTML = `
-                    <iframe id="pdf-iframe" src="../assets/Asiyanbi-full-stack-cv.pdf" width="100%" height="800"></iframe>
+                    <iframe id="pdf-iframe" src="../assets/MY%20PROF.pdf" width="100%" height="800"></iframe>
                 `;
             }, 1500);
         });
@@ -110,8 +110,8 @@ function initializePDFControls() {
             
             // Create download link
             const link = document.createElement('a');
-            link.href = '../assets/Asiyanbi-full-stack-cv.pdf';
-            link.download = 'Asiyanbi-Olalekan-Samuel-Resume.pdf';
+            link.href = '../assets/MY%20PROF.pdf';
+            link.download = 'MY PROF.pdf';
             link.click();
             
             // Show download notification
